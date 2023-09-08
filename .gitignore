@@ -1,3 +1,6 @@
+# Cloudflare Workers
+wrangler.toml
+
 # Logs
 logs
 *.log

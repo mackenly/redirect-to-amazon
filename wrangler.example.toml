@@ -1,0 +1,8 @@
+name = "redirect-to-amazon"
+main = "src/index.ts"
+compatibility_date = "2023-09-04"
+
+[vars]
+DEFAULT_REDIRECT = "https://exmaple.com"
+AMAZON_REDIRECTS = { "/" = "/stores/author/00000/", "/airplane" = "/gp/product/0000/", "/house" = "/gp/product/0000/", "/car" = "/gp/product/00000/" }
+REDIRECTS = { "/facebook" = "https://www.facebook.com/00000" }
